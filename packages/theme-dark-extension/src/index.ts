@@ -15,7 +15,7 @@ const plugin: JupyterLabPlugin<void> = {
     const style = '@jupyterlab/theme-dark-extension/index.css';
 
     manager.register({
-      name: 'JupyterLab Dark',
+      name: 'JupyterLab Dark2',
       isLight: false,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
